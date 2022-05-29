@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrtap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(164,209,57);
+            background: linear-gradient(288deg, rgba(164,209,57,1) 0%, rgba(9,121,92,1) 35%, rgba(0,255,121,1) 100%);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        #itemBox li{
+            color: #fff;
+            width: 100%;
+            list-style: none;
+            padding: 5px 10px;
+            margin-top: 5px;
+            border: 1px solid rgba(3, 81, 31, 0.626);
+            border-radius: 5px;
+            background: #FF416C;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        }
+        a{
+            background: #f12711;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+       
+    </style>
+
+</head>
+<body class="d-flex justify-content-center  ">
+   
+    <div class="d-flex flex-column gap-2">
+        <input value="" type="text" name="" id="userInput" class="py-1 px-2 form-control shadow-sm">
+        <a id="addItem" class="btn  shadow-sm">Add+</a>
+        <ul id="itemBox" class="p-0 d-flex flex-column flex-wrap">
+
+        </ul>
+    </div>
+    <script src="index.js" ></script>
+    
+</body>
+</html>
